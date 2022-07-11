@@ -1,8 +1,10 @@
 # School_District_Analysis
 
-## Overview
+## Purpose
 The purpose of this project is to perform an analysis on school district performance using Jupyter Notebook with Python, Pandas Library and Numpy Library.
 
+
+## Project Overview
 We are assisting Maria to provide an initial analysis based on data collected from stucents and schools throughout the district. The School Board is aiming to understand various performance metrics of the differents schools. Out goal is to provide an analysis with the anomolies examined and removed in order to provide the most accurate results. For this challenge, we have been asked to remove the impact of the inacuracies in the initial results by alteeing all the 9th grade reading and math schools to the null value, Nan. We will outline the impact of changing the 9th grade math and reading scores at Thomas High School to nan.
 
 
@@ -55,17 +57,35 @@ The 9th grade students at Thomas High School are the only scores affected in thi
 ### Scores by school spending
 The slight change in scores by school spending groups scores is for the $630-644 per student grouping due to the fact that this is where Thomas High School was grouped. However, each metric was changed by less than 0.1%.
 
-Spending Original
+#### Spending Original
 ![SpendingOriginal.png](Resources/SpendingOriginal.png)
 
-Spending Updated
+#### Spending Updated
 ![SpendingUpdated.png](Resources/SpendingUpdated.png)
 
 ### Scores by school size
+The scores for the Medium(1000-2000) size schools changed less that 1 percentage point as displayed in the images below:
+
+#### Scores by School Size Original
+![SchoolSizeScoresOriginal.png](Resources/SchoolSizeScoresOriginal.png)
+
+#### Scores by School Size Updated
+![SchoolSizeScoresUpdated.png](Resources/SchoolSizeScoresUpdated.png)
 
 
 ### Scores by school type
+Charter School, Thomas High School, is why we see changes to the scores for Charter types. District type school scores were not affected due to not having Thomas High School in the group to skew the results. The results are shown below:
 
+#### Original School Score by Type
+![SchoolTypeScoreOriginal.png](Resources/SchoolTypeScoreOriginal.png)
 
-## Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+#### Updated School Score by Type
+![SchoolTypeScoreUpdated.png](Resources/SchoolTypeScoreUpdated.png)
+
+## Summary: 
+### Four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+- The grade percentages increased for Thomas High School bringing it from a low to a high performing school
+- There was no impact to school or student count, only changes to all scores by less the 0.5% points
+- The overall percentage of passing increased from a 65 to a 90%
+- Changes to Medium (1000-2000) grouping for all scores by less than 0.1 percentage points in Scores by School Size
 
