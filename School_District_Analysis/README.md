@@ -18,6 +18,7 @@
 
 
 ### Original THS Data
+![THS_Original.png](Resources/THS_Original.png)
 
 ### THS % Passing Refactored
 ![THS_Refactored.png](Resources/THS_Refactored.png)
