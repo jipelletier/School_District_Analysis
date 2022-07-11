@@ -43,13 +43,13 @@ Thomas High School's overall rank dropped when replacing the 9th graders scores 
 The 9th grade students at Thomas High School are the only scores affected in this DataFrame due to having Nan instead of a grade for both math and reading.
 
 ### Math/Reading Original vs. Updated
-Math Original
+#### Math Original
 ![MathOriginal.png](Resources/MathOriginal.png)
-Math Refactored
+#### Math Refactored
 ![MathRefactored.png](Resources/MathRefactored.png)
-Reading Original
+#### Reading Original
 ![ReadingOriginal.png](Resources/ReadingOriginal.png)
-Reading Refactored
+#### Reading Refactored
 ![ReadingRefactored.png](Resources/ReadingRefactored.png)
 
 ### Scores by school spending
