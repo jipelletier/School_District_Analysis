@@ -14,7 +14,7 @@ We are assisting Maria to provide an initial analysis based on data collected fr
 The district summary is minimally affected by the changes of replacing the THS 9th grade data with the Nan because the District Summary Data Frame is analyzing data by overall information from the schools and not just the data per student. Average Scores, Passing Scores, and Overall Passing Scores only differ slightly in total. This is due to us excluding the data that was falsified in order to retain an accurate average of passing scores as seen below:
 
 ### Original District
-![Original_District.png](Resources/Original_District.png)
+![Original_District.png](School_District_Analysis/Resources/Original_District.png)
 
 ### Refactored District
 ![Refactored_District.png](Resources/Refactored_District.png)
